@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/todoList/todoList",
+    "pages/statistics/statistics",
+    "pages/calendar/calendar",
+    "pages/addTodo/addTodo",
+    "pages/monthList/monthList",
+    "pages/dayList/dayList",
+    "pages/planList/planList",
+    "pages/yearList/yearList",
+    "pages/weekList/weekList",
+    "pages/timerShaft/timerShaft",
+    "pages/about/about",
+    "pages/addNote/addNote",
+    "pages/noteList/noteList",
+    "pages/addPlan/addPlan",
+    "pages/addTarget/addTarget",
+    "pages/todoCard/todoCard",
+    "pages/planmanager/planmanager"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3cc51f",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/noteList/noteList",
+        "text": "note",
+        "iconPath": "assets/images/myForest.png",
+        "selectedIconPath": "assets/images/myForest.png"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "home",
+        "iconPath": "assets/images/forests.png",
+        "selectedIconPath": "assets/images/forests.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "me",
+        "iconPath": "assets/images/aboutme.png",
+        "selectedIconPath": "assets/images/aboutme.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json",
+  "navigationBarBackgroundColor": "#364035"
+}
