@@ -1,0 +1,10 @@
+<!--components/note-card/note-card.wxml-->
+<view class="note-card">
+  <view wx:if="{{ !!note.title }}" class="note-card__title">
+    {{note.title}}
+    <label style="color: {{note.isComplete? 'white': '#f58080'}}">{{note.isComplete? '[已完成]': '[未完成]'}}</label>
+  </view>
+  <view class="note-card__content">
+    {{note.content || '新建笔记'}}
+  </view>
+</view>
