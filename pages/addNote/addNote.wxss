@@ -1,0 +1,50 @@
+/* pages/note/create.wxss */
+@import "../../assets/wxss/todolist";
+
+.create-header {
+  padding: 0;
+  border-bottom: 0;
+}
+
+button {
+  padding: 10rpx;
+  margin: 20rpx;
+}
+
+.field-content {
+  border: 1px solid red;
+}
+
+.time-picker {
+  padding: 0rpx;
+}
+
+.textarea {
+  /* width: 100rpx; */
+  /* right: 50rpx; */
+/* position: static; */
+/* margin-right: 30rpx;
+ */
+ width: 90% !important;
+}
+
+.page {
+  padding-bottom: 0;
+}
+
+radio-group{
+  display: flex;
+  flex-direction: row;
+}
+
+.radio-group-label{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.logo {
+  width: 10vw;
+  height: 10vw;
+  position: relative;
+  left: -20vw;
+}

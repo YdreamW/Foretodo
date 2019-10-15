@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "计划详情",
+  "usingComponents": {
+    "ff-canvas": "../../f2-canvas/f2-canvas"
+  },
+  "navigationBarBackgroundColor": "#364035"
+}

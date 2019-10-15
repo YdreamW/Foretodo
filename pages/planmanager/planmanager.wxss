@@ -1,0 +1,91 @@
+/* pages/planmanager/planmanager.wxss */
+.main{
+  width: 90%;
+  padding: 20rpx;
+  border: 1rpx solid gray;
+  box-shadow: 3px 3px 3px #888888;
+  border-radius: 20rpx;
+}
+.icon{
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  margin: 5rpx;
+}
+.name{
+  float: left;
+  font-size: 17pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10rpx;
+}
+.hours{
+  width: 100rpx;
+  height: 50rpx;
+  line-height: 53rpx;
+  color: white;
+  background-color: #09BB07;
+  padding: 10rpx;
+  float: right;
+  border: 1rpx solid #09BB07;
+  border-radius: 50%;
+  text-align: center;
+}
+.b_record{
+  width: 280rpx;
+  clear: both;
+  margin-top: 100rpx;
+  color: #09BB07;
+}
+.chart_header{
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 38%;
+}
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+ff-canvas{
+  width:90%;
+  height:35%;
+}
+#column-dom{
+  position: absolute;
+  top: 40%;
+}
+.chart_header_mates{
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 64%;
+}
+#column-dom_mates{
+  position: absolute;
+  top: 65%;
+}
+.no_mates{
+  position: absolute;
+  top: 65%;
+}
+.text_no_mates{
+  color: #888888;
+  position: relative;
+  top: 70rpx;
+}
+.img_no_mates{
+  width: 200rpx;
+  height: 200rpx;
+  position: relative;
+  top: 60rpx;
+  left: 10%;
+  opacity: 0.5
+}

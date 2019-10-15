@@ -1,0 +1,15 @@
+<!--pages/planmanager/planmanager.wxml-->
+<view class="container">
+  <view class="main">
+    <image class="icon" src="../../assets/images/activity_black.png"></image>
+    <view class="name">{{plan_name}}</view>
+    <view class="hours">{{plan_hours}}h</view>
+    <view class="time_piceker">
+      <picker mode="multiSelector" bindchange="bindMultiPickerChange" value="{{multiIndex}}" range="{{multiArray}}">
+        <button class="b_record" bindtap="add_time">添加时间</button>
+      </picker>
+    </view>
+  </view>
+  <view class="chart_header">近一周时间投入</view>
+  <ff-canvas id="column-dom" canvas-id="column" opts="{{ opts }}"></ff-canvas>
+</view>

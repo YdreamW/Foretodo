@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新建任务",
+  "usingComponents": {
+    "todo-item": "/components/todo-item/todo-item"
+  },
+  "navigationBarBackgroundColor": "#364035"
+}
